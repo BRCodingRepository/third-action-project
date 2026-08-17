@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - "README.md"
+      - "README23.md"
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -20,4 +20,8 @@ jobs:
       - name: Build Code
         run: npm run  build
       - name: Deploy In Kubernetes
+<<<<<<< HEAD
         run: echo "Deploying ....."
+=======
+        run: echo " Deploying....."
+>>>>>>> 11e2bc323070de774ab1868f476265ab5eb80fd9
