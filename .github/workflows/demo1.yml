@@ -20,4 +20,4 @@ jobs:
       - name: Build Code
         run: npm run  build
       - name: Deploy In Kubernetes
-        run: echo " Deploying....."
+        run: echo "Deploying ....."
