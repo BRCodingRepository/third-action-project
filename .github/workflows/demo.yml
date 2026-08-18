@@ -4,6 +4,7 @@ on:
     branches:
       - main
 jobs:
+  runs-on: ubuntu-latest
   deploy:
     - name: Hello World Hi
       run: echo"Hello world"
