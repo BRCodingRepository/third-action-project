@@ -4,12 +4,13 @@ on:
     branches:
       - main
 jobs:
-  runs-on: ubuntu-latest
   deploy:
-    - name: Hello World Hi
-      run: echo "Hello world"
-    - name: Hello World Hello
-      run: echo "Hello world 1"
-    - name: Hello World you
-      run: echo "Hello world 2"
+    runs-on: ubuntu-latest
+    steps:  
+      - name: Hello World Hi
+        run: echo "Hello world"
+      - name: Hello World Hello
+        run: echo "Hello world 1"
+      - name: Hello World you
+        run: echo "Hello world 2"
     
