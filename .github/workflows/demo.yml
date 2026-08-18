@@ -1,0 +1,14 @@
+name: GitHub Third Action 
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    - name: Hello World
+      run: echo"Hello world"
+    - name: Hello World
+      run: echo"Hello world 1"
+    - name: Hello World
+      run: echo"Hello world 2"
+    
