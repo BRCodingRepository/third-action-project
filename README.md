@@ -1,2 +1,1 @@
-Hello How 
-second
+This is simple GitHub Workflow 
