@@ -1,4 +1,4 @@
-name: GitHub Third Action 
+name: Second Workflow
 on: 
   push:
     branches:
@@ -6,11 +6,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:  
-      - name: Hello World Hi
-        run: echo "Hello world"
-      - name: Hello World Hello
-        run: echo "Hello world 1"
-      - name: Hello World you
-        run: echo "Hello world 2"
-    
+    steps:
+      - name: Hello 1
+        run: echo"Hello world1"
+      - name: Hello 2
+        run: echo"Hello world2"
+      - name: Hello 3
+        run: echo"Hello world2"
